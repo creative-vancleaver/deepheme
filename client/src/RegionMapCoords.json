@@ -1,0 +1,13 @@
+[
+    {
+        "id": "cell1",
+        "title": "myelocyte",
+        "shape": "circle",
+        "fillColor": "red",
+        "coords": [
+            350,
+            125,
+            30
+        ]
+    }
+]
