@@ -131,7 +131,8 @@ const About = () => {
           // marginRight: '4rem'
         }}>
           <h5 className='' style={{}}>
-            AI Cell Detection & Classification
+            {/* AI Cell Detection & Classification */}
+            Automated Cell Differential & Disease Morphology Detection
           </h5>
           {/* <h5 style={{ marginBlock: '0', fontSize: '45px' }}> */}
             {/* NOTE: ADD BREAKPOINT AT SMALL FOR PADDING TOP */}

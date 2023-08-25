@@ -5,8 +5,11 @@ const app = express();
 
 connectDB();
 
+// INNIT MIDDLEWARE
+app.use(express.json({ extended: false }));
+
 // PRELIM ROUTE
-app.get('/', (req, res) => res.send('Hello world'));
+// app.get('/', (req, res) => res.send('Hello world'));
 
 // DEFINE ROUTES
 app.use('/', require('./routes/deepheme'));

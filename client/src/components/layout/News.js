@@ -21,7 +21,7 @@ const News = () => {
 
       <Col lg={3} md={6} sm={8} className='mb-5'>
         <Card>
-          <Card.Img variant='top' src='url("/img/Regoin-bma.png")' style={{ border: '1px solid black' }}></Card.Img>
+          <Card.Img variant='top' src="url('/img/Regoin-bma.png')" style={{ border: '1px solid black' }}></Card.Img>
           <Card.Body>
             <Card.Title>Title</Card.Title>
             <Card.Text>

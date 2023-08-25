@@ -36,7 +36,7 @@ const Affiliation
 
             <div>
                 <h3 className='pt-5 mb-0'>
-                    Clinical deployment at the top cancer center in the world
+                    Clinical deployment at the a cancer center in the world
                 </h3>
             </div>
 

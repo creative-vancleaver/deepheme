@@ -23,8 +23,9 @@ const MoreInfo = () => {
             <div style={{ width: '500px' }}>
             <h5>Pathologist created and tested</h5>
             <h5>Trained on over 50,000 cells</h5>
-            <h5>Can Classify 32+ cell types with more added daily</h5>
-            <h5>Generalizes across sample types and institutions</h5>
+            {/* <h5>Trained on billions of cellsf from thousands of patients</h5> */}
+            <h5>Can classify over 32 types of cells including those that cause cancer</h5>
+            <h5>Generalizes across scanning hardware and institutions</h5>
             </div>
           </Col>
 

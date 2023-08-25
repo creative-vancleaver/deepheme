@@ -4,7 +4,7 @@ import { Card, Button, Row, Col } from 'react-bootstrap';
 const SubHero = () => {
 
   return (
-    <div className='subhero-section mb-5 mt-5' style={{
+    <div id='about' className='subhero-section mb-5 mt-5' style={{
         // marginTop: '13rem',
         // paddingLeft: '10%',
         // paddingRight: '10%',
@@ -18,15 +18,7 @@ const SubHero = () => {
                         Early Detection
                     </h3>
                     <p>
-                        Lorem ipsum dolor sit
-                        amet, consectetur
-                        adipiscing elit, sed do
-                        eiusmod tempor
-                        incididunt ut labore et
-                        dolore magna aliqua.
-                        Quis ipsum suspendisse
-                        ultrices gravida. Risus
-                        commodo viverra
+                        Bring hematopathologist expertise to every peripheral blood smear in an instant.
                     </p>
                 </Card>
             </Col>
@@ -37,15 +29,7 @@ const SubHero = () => {
                         Early Diagnosis
                     </h3>
                     <p>
-                        Lorem ipsum dolor sit
-                        amet, consectetur
-                        adipiscing elit, sed do
-                        eiusmod tempor
-                        incididunt ut labore et
-                        dolore magna aliqua.
-                        Quis ipsum suspendisse
-                        ultrices gravida. Risus
-                        commodo viverra
+                        Use AI assisted interpretation of bone marrow and peripheral blood to get right diagnosis as quickly as possible.
                     </p>
                 </Card>
             </Col>
@@ -56,15 +40,7 @@ const SubHero = () => {
                         Early Treatment
                     </h3>
                     <p className='subhero-card-text'>
-                        Lorem ipsum dolor sit
-                        amet, consectetur
-                        adipiscing elit, sed do
-                        eiusmod tempor
-                        incididunt ut labore et
-                        dolore magna aliqua.
-                        Quis ipsum suspendisse
-                        ultrices gravida. Risus
-                        commodo viverra
+                        Clinical decision support and bio marker discovery that drives treatment and improves patient outcome.
                     </p>
                 </Card>
             </Col>

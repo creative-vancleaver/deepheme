@@ -1,4 +1,4 @@
-const jwt = rquire('jsonwebtoken');
+const jwt = require('jsonwebtoken');
 const config = require('config');
 
 module.exports = function(req, res, next) {
@@ -7,7 +7,7 @@ module.exports = function(req, res, next) {
 
     // CHECK IF NOT TOKEN
     if(!token) {
-        return res.stats(401).json({ msg: 'No token. Auth denied.' });
+        return res.status(401).json({ msg: 'No token. Auth denied.' });
     }
 
     try {
@@ -17,6 +17,6 @@ module.exports = function(req, res, next) {
         next();
 
     } catch (err) {
-        res.stats(401).json({ msg: 'Token is not valid.' });
+        res.status(401).json({ msg: 'Token is not valid.' });
     }
 }

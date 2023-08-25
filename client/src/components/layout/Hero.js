@@ -55,8 +55,9 @@ const Hero = () => {
                     </h1>
 
                     <h5>
-                        Revolutionizing cancer diagnoses with
-                        AI cell detection and classification
+                        {/* Revolutionizing cancer diagnoses with
+                        AI cell detection and classification */}
+                        Revolutionizing cancer diagnoses and screening of blood smears
                     </h5>
 
                 </div>
@@ -64,7 +65,8 @@ const Hero = () => {
 
             <div className='hero-btn-box'>
                 {/* <button>Learn More</button> */}
-                <button>Coming Soon</button>
+                {/* <button>Coming Soon</button> */}
+                <h3 style={{ marginBottom: '3rem !important' }}>Coming Soon</h3>
             </div>
         </div>
         /* <div style={{

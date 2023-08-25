@@ -14,56 +14,44 @@ import TryIt from '../layout/TryIt';
 import MoreInfo from '../layout/MoreInfo';
 import News from '../layout/News';
 
-const Home = () => {
+const PrivateHome = () => {
 
-  const authContext = useContext(AuthContext);
-  console.log('home auth context ', authContext);
+    const authContext = useContext(AuthContext);
+    console.log('privatehome auth context ', authContext);
 
 
-  useEffect(() => {
+    useEffect(() => {
+        authContext.loadUser();
+        console.log('reloading user PrivateHome.js');
+        
+      // eslint-disable-next-line
 
-    authContext.loadUser();
-    console.log('reloading user Home.js');
-
-    // eslint-disable-next-line
-  }, []);
+    }, []);
 
   return (
 
-    <div
-    //  style={{
+    <div 
+    // style={{
     //     backgroundImage: "url('/imgs/LGBG.png')",
     //     backgroundRepeat: 'no-repeat',
     //     backgroundSize: 'cover',
-    //     // backgroundPosition: 'center',
-    //     // backgroundPositionY: '0',
-    //     // width: '100%',
-    //     // height: '100%',
-    //     // height: '105vh',
-    //     // minHeight: '105vh',
-    //     // position: 'absolute',
-    //     // top: '-50px',
-    //     // zIndex: '-1'
+    //     minHeight: '80vh !important'
     // }}
     >
         
         {/* <NavBar /> */}
         {/* <Header /> */}
         <Hero />
-        {/* <SubHero />
+        <SubHero />
         <Affiliation />
         <About />
         <TryIt />
         <MoreInfo />
-        <News /> */}
-
-        {/* <MoreInfo /> */}
-        {/* <MoreInfo />
-        <News /> */}
-
+        <News />
+        
     </div>
 
   )
 }
 
-export default Home
+export default PrivateHome
