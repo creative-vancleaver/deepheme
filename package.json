@@ -12,7 +12,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
-  "author": "",
+  "author": "jvc",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -28,5 +28,13 @@
   "devDependencies": {
     "concurrently": "^8.2.0",
     "nodemon": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creative-vancleaver/deepheme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/creative-vancleaver/deepheme/issues"
+  },
+  "homepage": "https://github.com/creative-vancleaver/deepheme#readme"
 }
